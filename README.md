@@ -11,6 +11,7 @@ Now I know most probably a ton of trainers already available to do it for me. Or
 ![RawImage](docs/images/raw/1.jpg)
 
 2. We manipulate this image in order to make the features extraction a little easier
+
 ![ProcessedImage](docs/images/processed/1/1-1-bw.jpg)
 
 3. Then we extract the relevant parts of the image like the matrix
@@ -18,10 +19,12 @@ Now I know most probably a ton of trainers already available to do it for me. Or
 ![MatrixImage](docs/images/processed/1/1-0-cropped.jpg)
 
 4. After doing so, we detect the areas and get the dto to both get the solution and get the dto and coordinates to solve it
+
 ![MatrixImageOverlay](docs/images/processed/1/1-2-matrix.jpg)
 
 
 6. Now that we have extracted the needed data it should look something like this (see [HERE](./docs/results/2022-15-12_12-07-04c76539ab-cba0-4970-93c4-c3e98c540484.json) for shape with coordinates)
+
 ```json
 {
   "buffer_size": 8,
@@ -57,7 +60,7 @@ def generate_merged_combinations(
 
 ## How to run?
 
-First vreate a virtual environment by running `python -m venv .venv`
+First create a virtual environment by running `python -m venv .venv`
 
 Then activate it with `source .venv/bin/activate` (on linux/mac) or `.venv\Scripts\activate` (on windows)
 
